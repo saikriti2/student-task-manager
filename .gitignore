@@ -1,0 +1,21 @@
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+
+# Node modules (if you later add npm packages)
+node_modules/
+
+# Cache files
+.cache/
