@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background:#f4f4f4;
+    background:black;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -42,5 +42,5 @@ li{
 }
 .completed{
     text-decoration:line-through;
-    
+
 }
