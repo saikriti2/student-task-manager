@@ -61,3 +61,29 @@ function completeTask(element){
     element.classList.toggle("completed");
 
 }
+function searchTask(){
+
+    let input =
+    document.getElementById("searchInput").value.toLowerCase();
+
+    let tasks =
+    document.querySelectorAll("#taskList li");
+
+    tasks.forEach(task=>{
+
+        let text = task.innerText.toLowerCase();
+
+        if(text.includes(input)){
+
+            task.style.display="flex";
+
+        }
+        else{
+
+            task.style.display="none";
+
+        }
+
+    });
+
+}
